@@ -121,6 +121,8 @@ a {
     display: block;
 
     padding: 16px 32px;
+
+    cursor: pointer;
 }
 
 .hero-btn:active {
@@ -211,4 +213,46 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+
+/* ==========================PORTFOLIO-BTN========================== */
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+    background-color:#F4F4FD;;
+    color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    border-radius: 4px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+ .filter-btn:focus{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.filter-btn:active {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+/* ==========================PORTFOLIO-PROJECTS========================== */
+.project-list h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.project-list p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
