@@ -14,7 +14,7 @@ body {
   font-family: var(--primary-text-font);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ a {
 
 /* ==========================NAVIGATION========================== */
 .site-nav .link {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -85,7 +85,8 @@ a {
 .hero-btn {
   background-color: var(--primary-accent-color);
   color: var(--main-white);
-  font-weight: 600;
+  font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   align-items: center;
@@ -188,11 +189,22 @@ a {
 }
 
 /* ==========================PORTFOLIO-BTN========================== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .filter-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   background-color: var(--light-background);
   color: var(--primary-accent-color);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -214,14 +226,14 @@ a {
 }
 
 /* ==========================PORTFOLIO-PROJECTS========================== */
-.project-list h3 {
+.project-list .project-title {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--headings-color);
 }
 
-.project-list p {
+.project-list .project-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
